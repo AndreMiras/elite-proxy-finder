@@ -11,6 +11,7 @@ Requirements:
 * Python 2.7
   * gevent 1.0
   * requests 1.2.0+ 
+  * BeautifulSoup 3+
 
 If you are on a system with requests <1.2.0 you won't see any output because every test will result in an error referring to the request not having an attribute "elapsed". Use the -a option to check the errors.
 
